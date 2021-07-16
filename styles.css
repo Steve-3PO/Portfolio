@@ -11,10 +11,13 @@
     color: white;
     padding-left: 1200px;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 body {
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     background-color: black;
 }
 
@@ -34,11 +37,14 @@ h3 {
 main {
     padding-left: 150px;
     padding-right: 150px;
+    padding-top: 300px;
 }
 
 header {
     padding-left: 150px;
     padding-right: 150px;
+    position: fixed;
+    background-color: black;
 }
 
 h1 {
@@ -48,7 +54,6 @@ h1 {
 
 .page {
     height: 1400px;
-    margin-top: 300px;
 }
 
 a {
@@ -57,5 +62,15 @@ a {
 }
 
 #firstpagetext {
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 }
+
+#otherpagetext {
+    margin-top: 200px;
+}
+
+ #cv {
+     font-size: 50;
+     text-align: center;
+ }
+

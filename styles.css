@@ -19,6 +19,16 @@
     justify-content: space-evenly;
     flex-direction: row;
     color: white;
+    padding-top: 150px;
+}
+
+.flexbox-container3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    color: white;
+    padding-top: 300px;
+    flex-wrap: wrap;
 }
 
 body {
@@ -84,11 +94,6 @@ a {
     margin-top: 400px;
 }
 
- #cv {
-     font-size: 50;
-     text-align: center;
+ img {
+     padding: 10px;
  }
-
-img {
-    background-color: white;
-}

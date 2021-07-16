@@ -53,4 +53,9 @@ h1 {
 
 a {
     color: white;
+    text-decoration: none;
+}
+
+#firstpagetext {
+    margin-bottom: 200px;
 }

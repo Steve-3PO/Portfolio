@@ -6,12 +6,17 @@
 
 .flexbox-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     flex-direction: row;
     color: white;
-    padding-left: 1200px;
     padding-bottom: 25px;
     padding-top: 25px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 100%;
 }
 
 .flexbox-container2 {
@@ -20,6 +25,7 @@
     flex-direction: row;
     color: white;
     padding-top: 150px;
+    flex-wrap: wrap;
 }
 
 .flexbox-container3 {
@@ -31,11 +37,23 @@
     flex-wrap: wrap;
 }
 
+.projectflexbox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.projectflexbox2 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row
+}
+
 body {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
     background-color: black;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
 }
 
 h3 {
@@ -52,16 +70,7 @@ h3 {
 }
 
 main {
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 500px;
-}
-
-header {
-    padding-left: 150px;
-    padding-right: 150px;
-    position: fixed;
-    background-color: black;
+    padding-top: 400px;
 }
 
 h1 {
@@ -78,12 +87,16 @@ p {
 }
 
 .page {
-    height: 1400px;
+    min-height: 1400px;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+#_nology-link {
+    color: red;
 }
 
 #firstpagetext {
@@ -95,5 +108,18 @@ a {
 }
 
  img {
-     padding: 10px;
+    padding: 10px;
  }
+
+ @media screen and (max-width: 1205px) {
+     .flexbox-container {
+        justify-content: space-evenly;
+     }
+}
+
+@media screen and (max-width: 890px) {
+    .flexbox-container {
+       justify-content: space-evenly;
+       flex-direction: column;
+    }
+}

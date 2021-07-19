@@ -101,14 +101,20 @@ p {
     padding-right: 200px;
 }
 
-.page {
-    min-height: 1000px;
-}
+img {
+    padding: 10px;
+ }
 
 a {
     color: white;
     text-decoration: none;
 }
+
+.page {
+    min-height: 1000px;
+}
+
+
 
 #_nology-link {
     color: red;
@@ -122,14 +128,35 @@ a {
     margin-top: 400px;
 }
 
- img {
-    padding: 10px;
- }
-
 .iconpadding {
     padding: 50px
 }
 
+#me {
+    width:180px;
+    height:240px;
+}
+
+.white-text {
+    color: white;
+}
+
+.centered {
+    align-items: center;
+}
+
+.newchapterpadding {
+    padding-bottom: 200px;
+}
+
+.picturespacing {
+    padding-top: 100px;
+}
+
+.whiteborder {
+    border: 2px solid white;
+    border-radius: 25px;
+}
 
 
  @media screen and (max-width: 1400px) {
@@ -173,31 +200,4 @@ a {
     .projectflexbox2 {
         justify-content: center;
     }
-}
-
-
-#me {
-    width:180px;
-    height:240px;
-}
-
-.white-text {
-    color: white;
-}
-
-.centered {
-    align-items: center;
-}
-
-.newchapterpadding {
-    padding-bottom: 200px;
-}
-
-.picturespacing {
-    padding-top: 100px;
-}
-
-.whiteborder {
-    border: 2px solid white;
-    border-radius: 25px;
 }

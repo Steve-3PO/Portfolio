@@ -132,7 +132,7 @@ a {
 
 
 
- @media screen and (max-width: 1205px) {
+ @media screen and (max-width: 1400px) {
      .flexbox-container {
         justify-content: space-evenly;
      }

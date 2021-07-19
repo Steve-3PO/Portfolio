@@ -4,6 +4,10 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+nav {
+    width: 100%;
+}
+
 .flexbox-container {
     display: flex;
     justify-content: flex-end;
@@ -13,10 +17,6 @@
     padding-top: 25px;
     width: 100%;
     flex-wrap: wrap;
-}
-
-nav {
-    width: 100%;
 }
 
 .flexbox-container2 {
@@ -60,6 +60,8 @@ nav {
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
+    padding: 50px;
+    margin: 5px;
 }
 
 body {
@@ -149,6 +151,9 @@ a {
     p {
         font-size: 30;
         text-align: center;
+        padding-top: 200px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -161,18 +166,15 @@ a {
 
     p {
         padding-top: 200px;
-        padding-left: 100px;
-        padding-right: 100px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    p {
-        padding-top: 200px;
         padding-left: 50px;
         padding-right: 50px;
     }
+
+    .projectflexbox2 {
+        justify-content: center;
+    }
 }
+
 
 #me {
     width:180px;
@@ -197,4 +199,5 @@ a {
 
 .whiteborder {
     border: 2px solid white;
+    border-radius: 25px;
 }

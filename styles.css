@@ -202,3 +202,20 @@ a {
         justify-content: center;
     }
 }
+
+.minwidth {
+    width: 150px;
+}
+
+@media screen and (max-width: 2046px) {
+    .projectflexbox {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .projectflexbox2 {
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+}
